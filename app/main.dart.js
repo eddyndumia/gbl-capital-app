@@ -97739,7 +97739,7 @@ i=r.$3(B.qo,"Risk Disclosure",new A.al0(a0))
 r=r.$3(B.JU,"Privacy Policy",new A.al1(a0))
 h=A.aM1(B.CO,new A.al2(a1),A.SV(f,f,f,f,f,f,f,f,f,B.aH,f,B.Ck,f,f,B.bG,B.fa,f,f,f,f))
 g=A.eP(A.hu(B.a0q,new A.al3(a0),A.jL(f,f,f,f,f,f,f,f,f,B.cF,f,B.bF,f,f,f,f,f,f,f,f)),f,f)
-return A.iW(new A.fY(B.cI,A.fp(!1,A.nd(A.b([new A.fZ(b,f),new A.iC(A.bj(A.b([q,p,o,n,B.a2,B.pb,B.a2,l,k,i,r,B.az,h,B.aP,g,B.aP,A.eP(A.a0("GBL Capital 1.6.0 \xb7 sample data build",f,f,f,m,f,f),f,f)],j),B.C,B.l,B.n),f,f)],j),B.R,f,f,!1),B.R,!0),f),!1,f)}}
+return A.iW(new A.fY(B.cI,A.fp(!1,A.nd(A.b([new A.fZ(b,f),new A.iC(A.bj(A.b([q,p,o,n,B.a2,B.pb,B.a2,l,k,i,r,B.az,h,B.aP,g,B.aP,A.eP(A.a0("GBL Capital 1.6.1 \xb7 sample data build",f,f,f,m,f,f),f,f)],j),B.C,B.l,B.n),f,f)],j),B.R,f,f,!1),B.R,!0),f),!1,f)}}
 A.al4.prototype={
 $4$trailing(a,b,c,d){var s=null,r=this.a,q=A.b([A.kk(a,s,s,22),B.cQ,A.dh(A.a0(b,s,s,s,r.w,s,s),1)],t.p)
 if(d!=null)q.push(A.a0(d,s,s,s,r.Q,s,s))
