@@ -97880,8 +97880,8 @@ A.aHA.prototype={
 $2(a,b){return this.a.ad()},
 $S:630}
 A.aHB.prototype={
-$2(a,b){var s=a==null?null:A.aS6("1.9.0",a.b)<0
-if(s!==A.aS6("1.9.0",b.b)<0)this.a.ad()},
+$2(a,b){var s=a==null?null:A.aS6("1.10.0",a.b)<0
+if(s!==A.aS6("1.10.0",b.b)<0)this.a.ad()},
 $S:631}
 A.aO_.prototype={
 $1(a){var s,r,q,p,o,n,m,l,k,j,i,h=null,g=A.bdl(a)
@@ -97902,7 +97902,7 @@ return A.b7H(!1,h,h,h,h,"/home",h,h,h,!1,g,!0,h,!1,new A.Zh(new A.ar5(s,new A.aN
 $S:632}
 A.aNS.prototype={
 $2(a,b){var s,r,q,p=null,o="/update-required",n="/home",m="/welcome",l=this.a
-if(A.aS6("1.9.0",l.b6($.BW(),t.lM).b)<0)return b.c===o?p:o
+if(A.aS6("1.10.0",l.b6($.BW(),t.lM).b)<0)return b.c===o?p:o
 s=b.c
 if(s===o)return n
 r=l.b6($.eh(),t.aV)
@@ -98167,7 +98167,7 @@ A.zR.prototype={
 eY(a,b){var s,r=null,q=A.Q(a).ok,p=b.aQ($.BW(),t.lM).c,o=q.e
 o=A.ar(r,r,r,A.V("Please update GBL",r,r,r,o==null?r:o.ez(B.f,32),r,r),!1,r,r,!1,r,!1,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,B.m,r)
 s=q.y
-o=A.b([B.Lm,B.a0,o,B.al,A.V("This version (1.9.0) is no longer supported, so signals shown here could be wrong or late. Install the latest version to carry on.",r,r,r,s==null?r:s.b3(B.aB),r,r),B.ah],t.p)
+o=A.b([B.Lm,B.a0,o,B.al,A.V("This version (1.10.0) is no longer supported, so signals shown here could be wrong or late. Install the latest version to carry on.",r,r,r,s==null?r:s.b3(B.aB),r,r),B.ah],t.p)
 if(p!=null)o.push(A.ij("Get the update",!1,new A.aw6(a,p),B.m3))
 else{s=q.z
 o.push(A.V("Download the latest version from the place you installed GBL.",r,r,r,s==null?r:s.b3(B.f),r,r))}return A.jk(new A.hg(B.cY,A.fm(!0,A.ej(new A.e7(B.kB,new A.b6(B.dI,A.aW(o,B.A,B.k,B.av),r),r),r,r),B.N,!0),r),!1,r)}}
@@ -98729,7 +98729,7 @@ l.push(A.V("Ask in the community. Please do not post your password or any codes 
 l.push(B.a0)
 l.push(B.l3)
 l.push(B.a0)
-l.push(A.V("GBL Capital 1.9.0",o,o,o,n.Q,o,o))
+l.push(A.V("GBL Capital 1.10.0",o,o,o,n.Q,o,o))
 l.push(new A.e3(B.de,o,o,A.ed(B.a2m,new A.agA(a),A.f_(o,o,o,o,o,o,o,o,o,o,o,B.aG,B.N,o,o,o,o,o,o,o)),o))
 return new A.hS("Help","Answers to what people ask first.",l,!0,o)}}
 A.agA.prototype={
@@ -98773,7 +98773,7 @@ i=r.$3(B.m7,"Risk Disclosure",new A.anY(a0))
 r=r.$3(B.KO,"Privacy Policy",new A.anZ(a0))
 h=A.aQs(B.Da,new A.ao_(a1),A.FU(f,f,f,f,f,f,f,f,f,B.ak,f,B.nt,f,f,B.bF,B.fm,f,f,f,f))
 g=A.ej(A.ed(B.a2r,new A.ao0(a0),A.f_(f,f,f,f,f,f,f,f,f,B.bf,f,B.aG,f,f,f,f,f,f,f,f)),f,f)
-return A.jk(new A.hg(B.cY,A.fm(!1,A.pM(A.b([new A.hH(b,f),new A.jL(A.aW(A.b([q,p,o,n,B.a0,B.l3,B.a0,l,k,i,r,B.ah,h,B.al,g,B.al,A.ej(A.V("GBL Capital 1.9.0 \xb7 demo build",f,f,f,m,f,f),f,f)],j),B.A,B.k,B.n),f,f)],j),B.N,f,f,!1),B.N,!0),f),!1,f)}}
+return A.jk(new A.hg(B.cY,A.fm(!1,A.pM(A.b([new A.hH(b,f),new A.jL(A.aW(A.b([q,p,o,n,B.a0,B.l3,B.a0,l,k,i,r,B.ah,h,B.al,g,B.al,A.ej(A.V("GBL Capital 1.10.0 \xb7 demo build",f,f,f,m,f,f),f,f)],j),B.A,B.k,B.n),f,f)],j),B.N,f,f,!1),B.N,!0),f),!1,f)}}
 A.ao1.prototype={
 $4$trailing(a,b,c,d){var s=null,r=A.b([A.hJ(a,s,s,22),B.bE,A.cO(A.V(b,s,s,s,this.a.w,s,s),1)],t.p)
 r.push(B.CI)
