@@ -1,3 +1,4 @@
+@font-face { font-family: "Hanken Grotesk"; src: url("assets/fonts/HankenGrotesk.ttf") format("truetype"); font-weight: 400 800; font-display: swap; }
 /* GBL launch site. Tokens mirror the app (lib/core/design/tokens.dart). */
 :root {
   --ink: #04060c;
