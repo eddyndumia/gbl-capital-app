@@ -1,4 +1,4 @@
-# GBL Capital
+﻿# GBL Capital
 
 Futures signals for NQ, ES, YM and RTY with a permanent record where losses can't be hidden.
 
@@ -26,9 +26,9 @@ This repository holds the public launch site and the release downloads. The prod
 
 Verify a download before installing by comparing its SHA-256 with `SHA256SUMS.txt`.
 
-## Version 1.0.0
+## Version 1.1.0
 
-First public release. The apps run on **sample data**: no real signals, results or accounts. It is for looking at the product and its flows. Live signals arrive in a later release.
+The apps run on **sample data** in these public builds: no real signals, results or accounts. Both apps can connect to the real GBL APIs (live data mode is built and tested), which switches on once the backend is hosted.
 
 ## Risk disclosure
 
