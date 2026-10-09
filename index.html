@@ -18,7 +18,7 @@
 
   <header class="nav" role="banner">
     <div class="wrap nav-in">
-      <a class="brand" href="#top" aria-label="GBL Capital home"><img src="assets/gbl-logo.jpg" alt="GBL"></a>
+      <a class="brand" href="#top" aria-label="GBL Capital home"><img src="assets/gbl-logo.png" alt="GBL"></a>
       <nav aria-label="Main">
         <a href="#how">How it works</a>
         <a href="#record">The record</a>
@@ -40,12 +40,14 @@
           <h1>Futures signals.<br>Every result on the record.</h1>
           <p class="lead">Live trade ideas from the GBL desk, with the entry, stop and targets on your phone the moment they go out. Every signal is locked when published and every outcome is kept. Wins and losses.</p>
           <div class="cta">
-            <a class="btn btn-light" href="#download">Start 7-day free trial</a>
+            <a class="btn btn-light" href="#download">Try it free for 7 days</a>
             <a class="btn btn-ghost" href="https://discord.gg/n9jqnd6Rq" rel="noopener">Join the Discord</a>
           </div>
-          <p class="fine">Futures trading involves substantial risk of loss and is not suitable for everyone. Past performance is not indicative of future results.</p>
+          <p class="fine">Futures can lose you more than you put in. Past results do not predict future ones.</p>
         </div>
 
+        <div class="hero-art">
+        <canvas class="gem" aria-hidden="true"></canvas>
         <div class="phone" role="img" aria-label="Sample GBL signal card: NQ long, entry 25,100, stop 25,080, first target 25,140">
           <div class="phone-top"><span class="dot-live"></span> Active</div>
           <div class="card-glass">
@@ -63,6 +65,7 @@
             <div><small>30 days</small><b class="pos">+25.50R</b></div>
           </div>
           <p class="sample">Sample data to show the layout. Not a real result.</p>
+        </div>
         </div>
       </div>
     </section>
@@ -134,7 +137,7 @@
             <p class="eyebrow dark">GBL Signals</p>
             <p class="amount">$20<span>/month</span></p>
             <p class="body">Start with 7 days free. Cancel any time.</p>
-            <a class="btn btn-dark" href="#download">Start 7-day free trial</a>
+            <a class="btn btn-dark" href="#download">Try it free for 7 days</a>
           </div>
           <ul class="checks">
             <li>Live signals on NQ, ES, YM and RTY</li>
@@ -179,7 +182,7 @@
             <a class="btn btn-outline" href="https://discord.gg/n9jqnd6Rq" rel="noopener">Get notified</a>
           </article>
         </div>
-        <p class="small center">Version 1.8.0. Signal data in this build is sample data until live trading opens.</p>
+        <p class="small center">Version 1.9.0. Signal data in this build is sample data until live trading opens.</p>
       </div>
     </section>
 
@@ -192,17 +195,18 @@
         <details><summary>Which markets do you cover?</summary><p>CME index futures: NQ (Nasdaq-100), ES (S&amp;P 500), YM (Dow) and RTY (Russell 2000).</p></details>
         <details><summary>How do I know results aren't edited?</summary><p>Published levels are locked at the database level, updates are separate timestamped events, and the ledger only ever grows. You can see the whole history in the app.</p></details>
         <details><summary>Is automation available?</summary><p>Not yet. It is planned, with paper trading first and strict risk limits. It is not included in the current plan.</p></details>
-        <details><summary>Is it available in my country?</summary><p>Availability depends on your country and local rules. The app checks your country when you sign up.</p></details>
+        <details><summary>Is it available in my country?</summary><p>Not everywhere yet. The app checks your country when you sign up. For now it is not open to people in the United States.</p></details>
       </div>
     </section>
   </main>
 
   <footer class="foot">
     <div class="wrap">
-      <span class="logo-crop"><img src="assets/gbl-logo.jpg" alt="GBL"></span>
+      <span class="logo-crop"><img src="assets/gbl-logo.png" alt="GBL"></span>
       <p class="risk"><strong>Risk disclosure.</strong> Trading futures involves substantial risk of loss and is not suitable for every investor. You can lose more than your initial deposit. GBL signals are trade ideas, not personal advice. Past performance is not indicative of future results. Results are expressed in R, a multiple of initial risk, and are not a promise of returns.</p>
       <p class="small">&copy; 2026 GBL Capital &middot; <a href="https://discord.gg/n9jqnd6Rq" rel="noopener">Discord</a> &middot; <a href="https://github.com/eddyndumia/gbl-capital-app/releases">Releases</a></p>
     </div>
   </footer>
+  <script src="assets/gem.js" defer></script>
 </body>
 </html>
