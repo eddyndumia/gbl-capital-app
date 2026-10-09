@@ -26,7 +26,7 @@ This repository holds the public launch site and the release downloads. The prod
 
 Verify a download before installing by comparing its SHA-256 with `SHA256SUMS.txt`.
 
-## Version 1.2.0
+## Version 1.3.0
 
 The apps run on **sample data** in these public builds: no real signals, results or accounts. Both apps can connect to the real GBL APIs (live data mode is built and tested), which switches on once the backend is hosted.
 
